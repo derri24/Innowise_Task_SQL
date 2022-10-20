@@ -6,7 +6,7 @@ JOIN cards ON clients.account_id = cards.account_id
 GROUP BY social_statuses.type
 
 
---solution 1
+--solution 2
 SELECT type,
 (SELECT COUNT(*) FROM social_statuses first_social_status 
 JOIN clients ON clients.social_status_id = first_social_status.social_status_id

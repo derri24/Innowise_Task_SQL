@@ -24,6 +24,6 @@ AS
 GO 
  
 SELECT * from accounts
-EXEC task5 7;
+EXEC task5 5;
 GO
 SELECT * from accounts
